@@ -19,6 +19,7 @@ public class App {
 
 	switch(op) {
 		case "+" : out.println(numOne + numTwo); break;
+		case "-" : out.println(numOne - numTwo); break;
 		default : out.println("No such operation : " + op);
 	}
 
