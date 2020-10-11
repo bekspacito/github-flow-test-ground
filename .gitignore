@@ -1,0 +1,16 @@
+# Here is a list of wildcard for .gitignore :
+# 	- https://www.atlassian.com/git/tutorials/saving-changes/gitignore#git-ignore-patterns
+
+# 'target' folder and its subfolders are ignored
+target/
+
+# Intelij IDEA settings are ignored
+.idea/
+
+# Eclipse settings are ignored
+.eclipse
+
+# 'application.properties' files anywhere is ignored
+# Instruction on how to create an application's properties should be 
+# in README.txt file
+**/application.properties
